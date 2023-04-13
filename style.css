@@ -31,13 +31,41 @@
 }
 
 #divisor {
+    display: flex;
+}
 
+#text {
+    width: 50%;
+    background-color: green;
+}
+
+#text h1 {
+    color: #bb538e;
+}
+
+#images {
+    text-align: center;
+    margin: 50px auto;
+    background-color: blue;
+}
+
+body {
+    background-color: grey;
+}
+.figura {
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    background-color: red;
+    padding-right: 10px;
+}
+
+.figura img {
+    width: 200px;
 }
 
 .subtitle {
-    background-color: aqua;
-    height: 10px;
-    width: 256px;
+    color: #dddddd;
 }
 
 footer {
